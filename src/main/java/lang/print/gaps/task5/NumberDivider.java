@@ -4,7 +4,7 @@ public class NumberDivider {
     void divide(int toBeDivided) {
         Scanner sc=new Scanner(System.in);
 
-        int d=toBeDivided/5;
+        double d=toBeDivided*1./5;
         System.out.println(d);
     }
 }
